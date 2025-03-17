@@ -1,0 +1,17 @@
+#include <iostream>
+#define PI3.14159 // Define pi as a constant
+using namespace std;
+int main() {
+    // Given values
+    double radius = 5.0;
+    double height = 10.0;
+    double volume = PI * radius * radius *
+  height; // calculate the volume
+      // Display the result
+      cout << "Given: \n" ;
+      cout << "Radius = " << radius << " units\n";
+      cout << "Height = " << height << " units\n";
+      cout << "The volume of the cylinder is: " <<
+    volume <<" cubic units" << end1;
+       return 0;
+}
